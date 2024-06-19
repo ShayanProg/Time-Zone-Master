@@ -1,0 +1,40 @@
+body {
+    background-color: #121212; /* Dark background for the theme */
+    color: #e0e0e0; /* Light grey text for readability */
+    font-family: Arial, sans-serif; /* Modern, readable font */
+}
+
+.container {
+    max-width: 800px; /* Limiting max width for better readability */
+    margin: 0 auto; /* Centering the container */
+    padding: 20px; /* Padding around the content */
+}
+
+h1 {
+    border-bottom: 2px solid #333; /* Subtle underline for the header */
+    padding-bottom: 10px; /* Space below the text */
+}
+
+.contact-info {
+    margin-top: 20px; /* Space between sections */
+    background-color: #222; /* Slightly lighter dark background for sections */
+    padding: 15px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners for the sections */
+}
+
+.contact-info h2 {
+    color: #fff; /* White color for sub-headers for contrast */
+}
+
+.contact-info p {
+    line-height: 1.6; /* More readable line spacing */
+}
+
+.contact-info a {
+    color: #4caf50; /* Stylish green color for links */
+    text-decoration: none; /* No underline */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover for better interaction */
+}
