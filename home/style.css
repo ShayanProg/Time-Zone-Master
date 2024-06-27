@@ -1,40 +1,104 @@
 body {
-    background-color: #121212; /* Dark background for the theme */
-    color: #e0e0e0; /* Light grey text for readability */
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
     font-family: Arial, sans-serif; /* Modern, readable font */
 }
 
 .container {
-    max-width: 800px; /* Limiting max width for better readability */
-    margin: 0 auto; /* Centering the container */
-    padding: 20px; /* Padding around the content */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-h1 {
-    border-bottom: 2px solid #333; /* Subtle underline for the header */
-    padding-bottom: 10px; /* Space below the text */
+.navbar {
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 0;
 }
 
-.info-section {
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.navbar nav ul li a {
+    color: #f8f9fa;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+.passage{
     margin-top: 20px; /* Space between sections */
     background-color: #222; /* Slightly lighter dark background for sections */
     padding: 15px; /* Padding inside sections */
     border-radius: 8px; /* Rounded corners for the sections */
+
+}
+.passage .info-section h2 a{
+    text-decoration: none;
+    color: #4caf4c;
 }
 
-.info-section h2 {
-    color: #fff; /* White color for sub-headers for contrast */
+.clocks {
+    margin-top: 20px;
 }
 
-.info-section p {
-    line-height: 1.6; /* More readable line spacing */
+footer {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.info-section a {
-    color: #4caf50; /* Stylish green color for links */
-    text-decoration: none; /* No underline */
+footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .dev-heading{
+    text-align: center;
+    border-bottom: 2px solid #333; /* Subtle underline for the header */
+    padding-bottom: 10px; /* Space below the text */
+    margin: 0 300px 10px 300px;
 }
 
-.info-section a:hover {
-    text-decoration: underline; /* Underline on hover for better interaction */
+footer .card {
+    background-color: #333;
+    color: #f8f9fa;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+footer .card:hover{
+    background-color: #343a40;
+    margin: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 3%;
+}
+footer .card a{
+    color: #4caf4c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .card-body .check-out{
+    font-weight: bold;
 }

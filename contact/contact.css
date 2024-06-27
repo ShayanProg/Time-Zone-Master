@@ -9,6 +9,36 @@ body {
     margin: 0 auto; /* Centering the container */
     padding: 20px; /* Padding around the content */
 }
+.navbar {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    color: #f8f9fa;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
 
 h1 {
     border-bottom: 2px solid #333; /* Subtle underline for the header */

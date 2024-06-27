@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings - Time Zone Master</title>
+    <link rel="stylesheet" href="planmeeting.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="navbar">
+                <nav>
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/home/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    <div class="meeting-scheduler">
+        <h2>Schedule a Meeting</h2>
+        <form>
+            <label for="meeting-time">Select Date and Time:</label>
+            <input type="datetime-local" id="meeting-time" name="meeting-time" onclick="this.showPicker()">
+            <button type="submit">Schedule Meeting</button>
+        </form>
+    </div>
+    </div>
+    <script src="planmeeting.js"></script>
+</body>
+</html>
