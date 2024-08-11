@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TimeZones - Time Zone Master</title>
+    <link rel="stylesheet" href="timezone.css">
 </head>
 <body>
     <div class="container">
@@ -23,8 +24,17 @@
             </nav>
         </div>
         <div class="body">
-            <!-- what should come here? -->
+            <div class="body">
+                <div id="clocks-container">
+                    <input type="text" id="timezone" name="timezone" placeholder="Enter Timezone">
+                    <!-- make function showClock() -->
+                    <button id="showBtn" onclick="showClock()">Show Time</button>
+                    <button onclick="addClock()">Add Clock</button>
+                    <button onclick="removeClock()">Remove Clock</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script src="timezone.js"></script>
 </html>

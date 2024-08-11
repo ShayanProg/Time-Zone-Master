@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -6,13 +10,11 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 800px; /* Limiting max width for better readability */
+    margin: 0 auto; /* Centering the container */
+    padding: 20px; /* Padding around the content */
 }
-
 .navbar {
-    align-items: center;
     background-color: #343a40;
     padding: 10px 0;
 }
@@ -26,7 +28,7 @@ body {
 
 .navbar nav ul li {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .navbar nav ul li a {
@@ -41,16 +43,37 @@ body {
     background-color: #495057;
     border-radius: 5px;
 }
-.passage{
-    margin-top: 20px; /* Space between sections */
-    background-color: #222; /* Slightly lighter dark background for sections */
-    padding: 15px; /* Padding inside sections */
-    border-radius: 8px; /* Rounded corners for the sections */
 
+.welcome-section{
+    margin-top: 25px; /* Space between sections */
+    background-color: #222; /* Slightly lighter dark background for sections */
+    padding: 40px 140px 120px 50px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners for the sections */
 }
-.passage .info-section h2 a{
+.welcome-section h1{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border-bottom:2px solid #333;
+}
+.welcome-section h2{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+.welcome-section p{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+.welcome-section .info-section h2 a{
     text-decoration: none;
     color: #4caf4c;
+}
+
+.welcome-section .info-section h2 a:hover{
+    text-decoration: underline;
 }
 
 .clocks {
@@ -62,11 +85,10 @@ footer {
     color: #e0e0e0;
     padding: 20px 0;
     text-align: center;
+    margin: 20px 120px;
 }
 
 footer .row {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -80,25 +102,26 @@ footer .dev-heading{
 footer .card {
     background-color: #333;
     color: #f8f9fa;
-    margin: 10px;
-    padding: 20px;
+    margin: 160px;
+    padding: 9px;
     border-radius: 20px;
-    word-wrap: break-word;
-    word-break: break-word;
-}
-footer .card:hover{
-    background-color: #343a40;
-    margin: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    line-height: 25px;
 }
 footer .card a{
+    margin-top: 10px;
     color: #4caf4c;
     font-weight: bold;
     text-decoration: none;
 }
+footer .card a:hover{
+    font-size: large;
+    text-decoration: underline;
+}
 
 footer .card-body .check-out{
     font-weight: bold;
+    margin-bottom: 10px;
 }

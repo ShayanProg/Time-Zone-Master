@@ -1,3 +1,4 @@
+
 body {
     background-color: #121212; /* Dark background for the theme */
     color: #e0e0e0; /* Light grey text for readability */
@@ -63,6 +64,7 @@ h1 {
 .about-info a {
     color: #4caf50; /* Stylish green color for links */
     text-decoration: none; /* No underline */
+    font-weight: bold;
 }
 
 .about-info a:hover {

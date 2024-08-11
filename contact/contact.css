@@ -63,6 +63,7 @@ h1 {
 .contact-info a {
     color: #4caf50; /* Stylish green color for links */
     text-decoration: none; /* No underline */
+    font-weight: bold;
 }
 
 .contact-info a:hover {
