@@ -55,16 +55,22 @@ h1 {
 
 .about-info h2 {
     color: #fff; /* White color for sub-headers for contrast */
+    text-align: center;
 }
 
 .about-info p {
     line-height: 1.6; /* More readable line spacing */
 }
-
+.about-info p span.greeting{
+    font-weight: bold;
+}
 .about-info a {
     color: #4caf50; /* Stylish green color for links */
     text-decoration: none; /* No underline */
     font-weight: bold;
+}
+.about-info .p2{
+    text-align: center;/*To center the CONTACT page link */
 }
 
 .about-info a:hover {

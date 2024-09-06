@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -96,19 +93,25 @@ footer .dev-heading{
     text-align: center;
     border-bottom: 2px solid #333; /* Subtle underline for the header */
     padding-bottom: 10px; /* Space below the text */
-    margin: 0 300px 10px 300px;
+    margin: 0 300px;
 }
 
 footer .card {
     background-color: #333;
     color: #f8f9fa;
-    margin: 160px;
+    margin: 34px 160px;
     padding: 9px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     font-size: large;
     line-height: 25px;
+}
+footer .card-title{
+    margin-bottom: 5px;
+}
+footer .card-text{
+    margin-top: 4px;
 }
 footer .card a{
     margin-top: 10px;
